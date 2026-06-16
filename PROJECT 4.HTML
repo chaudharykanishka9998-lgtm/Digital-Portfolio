@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interconnect-Application Form</title>
+    <link rel="stylesheet" href="index 2.css">
+</head>
+<body>
+    <h1>Intership Application Form</h1>
+    <form method="post" action="#">
+     <!--Fieldset Group 1:Personal Information-->
+     <fieldset>
+        <legend>Personal details</legend>
+        <label for="name"> Full name:</label>
+        <input type="text" id="name" name="user_name" required>
+        <label for="user_email">Email Address:</label>
+        <input type="email" id="user_email" name="user_email" required>
+        <label type="phone">Phone Number(10 digits):</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}">
+        <label for="start_date">Available Start Date:</label>
+        <input type="date" id="start_date" name="start_date">
+        </fieldset>
+        <!--Fieldset Group 2 : Application Details-->   
+        <fieldset>
+            <legend>Application Specifics</legend>
+            <label>Preffered Role:</label>
+            <input type="radio" id="Frontend" name="role" value="frontend">
+            <label for="frontend">Frontend</label>
+            <input type="radio" id="backend">
+            <label for="skill_level">Skill Level(1-10):</label>
+            <input type="range" id="skill_level" name="skill_level" min="1" max="10">
+            <label for="tech_stack">Primary Tech Stack:</label>
+            <input list="tech_options" id="tech_stack" name="tech_stack">
+            <datalist id="tech_options">
+                <option value="HTML/CSS">
+                <option value="JAVASCRIPT">
+                <option value="Python">
+                <option value="JAVA">     
+            </datalist>
+            <label for="bio">Tell us about yourself:</label>
+            <textarea id="bio" name="bio" rows="4"></textarea>
+        </fieldset>
+        <button type="Submit">Submit Application</button>
+    </form>
+</body>
+</html>
