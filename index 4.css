@@ -1,0 +1,41 @@
+/* General page styling*/
+body{
+    font-family: Arial,sans-serif;
+    color:#333333;
+}
+/* Header Styling*/
+header{
+    text-align: center;
+}
+/* Shared card styling*/
+.card{
+    background-color: #f4f4f4;
+    border:1px solid #cccccc;
+    padding:15px;
+    margin:20px;
+    width:250px;
+    display:inline-block;/* keeps cards side-by-side without flexbox*/
+    vertical-align: top;
+}
+/* Specific price styling*/
+.price{
+    font-size: 18px;
+    color:#e74c3c;
+    font-weight: bold;
+}
+/* List Styling*/
+ul{
+    font-size: 14px;
+}
+.product-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+    padding:20px;
+}
+img{
+    max-width: 100%;
+    height:auto;
+    display: block;
+}
