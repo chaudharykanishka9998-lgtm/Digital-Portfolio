@@ -1,0 +1,30 @@
+h1{
+    color:blueviolet;
+    text-align: center;
+}
+/*Type selector*/
+body{ 
+    background-color: lightblue;
+    font-family: Arial,sans-serif;
+    font-size: 18px;
+}
+/*ID selector*/
+#my-name{
+    color: darkblue;
+    background-color: lightyellow;
+}
+/*Class selector*/
+.skill-list{
+    background-color: lightgreen;
+}
+header,nav,section,footer{
+    background-color:white;
+    margin: 10px;
+    padding: 10px;
+}
+h2{
+    color:darkred;
+}
+table{
+    background-color: lightgray;
+}
