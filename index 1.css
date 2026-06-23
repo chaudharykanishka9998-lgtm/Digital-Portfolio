@@ -1,0 +1,70 @@
+h1{
+    background-image: url('IMAGE.jpg'); /* path to your image */
+    background-size: cover; /* make the image fit the heading area */
+    background-position: center; /* center the image */
+    color: blue; /* text color */
+    padding: 30px; /* adds space so the background shows */
+    margin-bottom: 20px;
+} 
+table{
+    width: 40%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    tr:nth-child(even) {
+        background-color: pink;
+     }
+     tr:nth-child(odd) {
+        background-color: rgb(230, 173, 229);
+     }
+}
+body{
+    background-image: url('FOOD.jpg'); /* path to your image */
+    background-repeat: no-repeat; /* prevent the image from repeating */
+    background-size: cover; /* make the image fit the entire background */
+    background-position: center; /* center the image */
+}
+caption {
+  font-size: 22px;          /* make it bigger */
+  font-weight: bold;        /* bold text */
+  color: #fff;              /* white text */
+  background-color: brown;/* orange highlight background */
+  padding: 10px;            /* space around text */
+  text-align: center;       /* center the caption */
+  border-radius: 6px;       /* rounded corners */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3); /* subtle shadow */
+}
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fff8f0;
+  color: #333;
+  text-align: center;
+}
+h2 {
+  color: #FF8C00;
+  margin-top: 30px;
+}
+
+.menu-table {
+  width: 60%;
+  margin: 0 auto 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.menu-table th {
+  background-color: #8B0000;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.menu-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-table tr:hover {
+  background-color: #fff3e0; /* creamy highlight */
+}
+
+
