@@ -1,0 +1,28 @@
+/*Type Selector for legends and labels*/
+legend{
+    color:#2c3e50;
+    font-size: 20px;
+    font-family: Arial,sans-serif;
+}
+label{
+    color:#34495e;
+    font-size: 16px;
+    font-family: Verdana,sans-serif;
+}
+/* ID selector for a specific field*/
+#full-name{
+    background-color: #f0f8ff;
+    font-size: 14px;
+}
+/* Button Styling*/
+button{
+    background-color: #27ae60;
+    color: white;
+    font-size: 18px;
+    padding: 10px;/* note: padding is generally allowed*/
+}
+/* general body styling for readability*/
+body{
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+}
